@@ -9,12 +9,24 @@
     <h1>Banco de Questões</h1>
 
     <h2>Adicionar Questão</h2>
-    <form id="formAdicionarQuestao">
-        </form>
+    <form id="formAdicionarQuestao" onsubmit="adicionarQuestao(event)">
+        <label for="enunciado">Enunciado:</label><br>
+        <textarea id="enunciado" name="enunciado"></textarea><br><br>
+
+        <label for="alternativas">Alternativas (separadas por vírgula):</label><br>
+        <textarea id="alternativas" name="alternativas"></textarea><br><br>
+
+        <label for="respostaCorreta">Resposta Correta:</label><br>
+        <input type="text" id="respostaCorreta" name="respostaCorreta"><br><br>
+
+        <label for="conteudo">Conteúdo/Tópico:</label><br>
+        <input type="text" id="conteudo" name="conteudo"><br><br>
+
+        <button type="submit">Adicionar</button>
+    </form>
 
     <h2>Questões Cadastradas</h2>
-    <div id="listaQuestoes">
-        </div>
+    <div id="listaQuestoes"></div>
 
     <h2>Buscar Questões</h2>
     <input type="text" id="buscaConteudo" placeholder="Buscar por conteúdo...">
