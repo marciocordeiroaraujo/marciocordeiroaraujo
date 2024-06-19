@@ -1,0 +1,9 @@
+[
+    {
+        "enunciado": "Qual a soma dos ângulos internos de um triângulo?",
+        "alternativas": ["90°", "180°", "270°", "360°"],
+        "respostaCorreta": "180°",
+        "conteudo": "Geometria Plana"
+    },
+    // Adicione mais questões aqui...
+]
